@@ -17,5 +17,6 @@ public class Login_page_testcases extends Login_Page_locators{
 		dr.get("https://www.google.com/");	
 		String tabtitle=dr.getTitle();
 		Assert.assertTrue(true, tabtitle);
+		System.out.println("selenium");
 	}
 }
